@@ -1,3 +1,31 @@
+**Docker**
+Docker is a container orchestration tool.
+Top 10 commands
+**
+**docker --version** (to check version of docker)
+**docker login** (if we want tomlogin with our docker hub ,we can use this)
+**docker logout**
+**docker search** ( for example if we want tosearch images through cli we can use this command)
+**docker pull**( if we want to access any particular image we can use this command)
+****docker inspect** (for example you want to see more about articular image/volume we can use this as docker inspect image                                                                           nginx,docker inspect volume volumename)
+
+**docker images**(to serach list of images)
+**docker create imageid** ( to create container using any images)
+******docker ps** (it will show only running conatiners)
+**docker ps -a** (it will show all the containers both running and stopped conatiners)
+**docker start imageid/imagenam**e( it will start docker conatiner)
+**docker stop imageid/imagename** (it will stop conatiner)(it will  gracefully shutdown the cnatiner)
+**docker create --name conatinernam**e (it will create conatiner name whqt ever we want to remember easily)
+**docker run --name conatinername image** (it will create , start and run the conatiner at teh sam etime)
+**dokcer kill** (forcefully it will kill that conatiner)
+******docker exec -it containerid /bin/bash** ****(it will login in the conatiner)
+**docker rm conatinerid** (it will remove the continer but we need to stop before that forcefully)
+**docker rmi imageid**( it will remoce image of that conatiner but t will not remove before that we need to remoce continaer)
+
+
+
+
+
 
 ## What is a container ?
 
